@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+
+   
+
+
+</head>
+<body>  
+  <div class="container">
+      <div>
+        <div class="feature-box a">
+          <div><h1> Password Generator</h1></div>
+            <div class="feature-box b">
+                    <div>Generate a Password</div>
+                        <Section class="c">
+                          <textarea id="Password">Your Secure Password</textarea>
+                        </Section>
+                    </div>
+                    <div id="getPassword">
+                      Password
+                    </div>
+                      <Section class="d">
+                        <div>
+                          <button onclick="getPassword()">Generate Password</button>
+                        </div>
+                      </Section>
+                      <Section class="e">
+                        <div>
+                          <button onclick="copyPassword()">Copy to Clipboard</button>
+                        </div>
+                      </Section>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="logic.js"></script>
+</html>

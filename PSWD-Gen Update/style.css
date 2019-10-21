@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+.feature-box.a {
+    text-align: center;
+    background-color: #777;
+    width: 635px;
+    height: 270px;
+    margin: 10px 130px;
+    padding: 10px;
+    background: #ebebeb;
+    }
+.feature-box.b {
+   text-align: left;
+    border-top: black 1px;
+    
+    width: 590px;
+    height: 150px;
+    position: absolute;
+    padding: 10px 2px;
+    margin: -20px 60px 10px 20px;
+    background: rgb(138, 131, 123);
+    }
+
+.d {
+    text-align: left;
+    width: 140px;
+    position: absolute;
+    height:30px;
+    color: black;
+    background: red; 
+    margin: 75px 90px 190px 45px;
+    float: right;
+    }
+.e {
+    text-align: left;
+    width: 140px;
+    position: absolute;
+    height:30px;
+    color:black;
+    background: green; 
+    margin: 75px 445px;
+    float: left;
+    }
+textarea{
+    width: 580px;
+    height: 40px;
+    margin: 30px 5px;
+    position: absolute;
+      }
+
+
+   
+      
