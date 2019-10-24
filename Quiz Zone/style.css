@@ -1,0 +1,172 @@
+body{
+    font-size: 20px;
+    font-family: monospace;
+    background: #52b155;
+}
+
+#container{
+    margin : 20px auto;
+    background-color: rgb(79, 95, 65);
+    height: 300px;
+    width : 750px;
+    border-radius: 5px;
+    position: relative;
+}
+#start{
+    font-size: 1.5em;
+    font-weight: bolder;
+    word-break: break-all;
+    width:200px;
+    height:60px;
+    border : 2px solid lightgrey;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left:270px;
+    top:130px;
+    color : rgb(241, 76, 76);
+    background: #52b155;
+}
+
+
+#question{
+    width:800px;
+    height : 1755px;
+    position: absolute;
+    right:10;
+    top:10;
+}
+#question p{
+    margin : 0;
+    padding : 15px;
+    font-size: 1.25em;
+}
+
+#choices{
+    width : 780px;
+    position: absolute;
+    right : 10;
+    top : 145px;
+    padding : 10px;
+   
+}
+.choice{
+    display: inline-block;
+    width : 135px;
+    text-align: center;
+    border : 1px solid grey;
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 5px;
+    background: #52b155;
+}
+
+#timer{
+    position: absolute;
+    height : 100px;
+    width : 200px;
+    bottom : 0px;
+    text-align: center;
+}
+#counter{
+    font-size: 3em;
+}
+
+#progress{
+    width : 500px;
+    position: absolute;
+    bottom : 0px;
+    right : 0px;
+    padding:5px;
+    text-align: right;
+}
+.prog{
+    width : 25px;
+    height : 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left : 5px;
+    margin-right : 5px;
+}
+#scoreContainer{
+    margin : 2px auto;
+    background: #52b155;
+    
+    height: 233px;
+    width : 800px;
+    
+    position: relative;
+    display: none;
+}
+
+#scoreContainer p{
+    position: absolute;
+    display: block;
+    width : 69px;
+    height :69px;
+    top:320px;
+    left:635px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    
+}
+#formContainer{
+    margin: 70px 50px;
+    display: none;
+}
+
+.input-group {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #highscoresContainer {
+    background-color: #fff;
+    border: 1px solid #eceff1;
+    
+    margin: 2%;
+    margin-top: 80px;
+    padding: 20px;
+    width: 46%;
+    overflow: hidden;
+    position: relative;
+    float: left;
+  }
+  
+  #highscores::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  
+  .clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+  
+  #msg {
+    visibility: hidden;
+    margin-top: 20px;
+    font-weight: 700;
+    height: 1.2em;
+    font-size: 1.2em;
+  }
+  
+  #msg.success,
+  #msg.error {
+    visibility: visible;
+  }
+  
+  #msg.success {
+    color: #52b155;
+  }
+  .center {
+      color: #52b155;
+      
+      text-decoration-color: #52b155;
+  }
+  
+ 

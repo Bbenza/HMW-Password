@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+     
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+               
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+            <nav>
+                    <div class="nav-wrapper">
+                      <a href="#" class="brand-logo center">Quiz Zone</a>
+                      <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        
+                      </ul>
+                    </div>
+                  </nav>
+
+        <div id="start">Start Quiz!</div>
+        <div id="quiz" style="display: none">
+            <div id="question"></div>
+            <div id="qImg"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                <div class="choice" id="D" onclick="checkAnswer('D')"></div>
+
+
+                <div id ="formContainer" style="display: none">
+                    <h1>All done!</h1>
+                    <h2>Your final score is:</h2>
+                    <h3>Enter Initial</h3>
+                <input type="name" id="name"/>
+                <button id="submit">Submit</button>
+               
+            </div>
+
+            </div>
+          
+            <div id="progress"></div>
+        </div>
+        <div id="scoreContainer" style="display: none"></div>
+    </div>
+    <div id="msg"></div>
+
+    
+
+</div>
+</div>
+
+
+
+
+    <script src="connect.js"></script>
+</body>
+</html>
