@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <scrit src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></scrit>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
+    <!-- <script language="JavaScript" type="text/javascript" src="<?php echo get_option('siteurl') ?>/js/sprinkle.js"></script>
+    <script language="JavaScript" type="text/javascript" src="<?php echo get_option('siteurl') ?>/js/jquery-1.2.6.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="<?php echo get_option('siteurl') ?>/js/jquery-ui-personalized-1.5.2.packed.js"></script> -->
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="style.css" />
+    
+    </head>
+​<h1>Day Planner <span class="current-time"></span></h1>
+<body>
+    <div class="container">
+        <div class="row box">
+            <div id="hour-9" class="timeBlock-early"><div class="time">9AM</div><textarea class=" col-md-4 occurrence"></textarea><button class="btn"> save</button></div>
+            
+            <div id="hour-10" class="timeBlock-early"><div class="time">10AM</div><textarea class="col-md-4 occurrence"></textarea><button class="btn ">save</button></div>
+
+            <div id="hour-11" class="timeBlock-early"><div class="time">11AM</div><textarea class="col-md-4 occurrence"></textarea><button class="btn ">save</button></div>
+            </div>
+            
+        <div class="row box">
+        <div id="hour-12" class="timeBlock-lunch "><div class="time">12PM</div><textarea class="col-md-4 occurrence"></textarea><button class="btn ">save</button></div>
+
+            <div id="hour-13" class="timeBlock-lunch"><div class="time">1PM</div><textarea class="col-md-4 occurrence"></textarea><button class="btn ">save</button></div>
+
+            <div id="hour-14" class="timeBlock-lunch"><div class="time">2PM</div><textarea class="col-md-4 occurrence"></textarea><button class="btn ">save</button></div>
+        </div>
+            
+            <div class="row box">
+            <div id="hour-15" class="timeBlock-afternoon"><div class="time">3PM</div><textarea class="col-md-4 occurrence"></textarea><button class="btn ">save</div>
+
+            <div id="hour-16" class="timeBlock-afternoon"><div class="time">4PM</div><textarea class="col-md-4 occurrence"></textarea><button class="btn ">save</button></div>
+
+            <div id="hour-17" class="timeBlock-afternoon"><div class="time">5PM</div><textarea class="col-md-4 occurrence"></textarea><button class="btn ">save</button></div>
+        </div>
+
+        <div class="row box">
+            <div id="hour-18" class="timeBlock-evening"><div class="time">6PM</div><textarea class="col-md-4 occurrence"></textarea><button class="btn ">save</button></div>
+        
+            <div id="hour-19" class="timeBlock-evening"><div class="time">7PM</div><textarea class="col-md-4 occurrence"></textarea><button class="btn ">save</button></div>
+
+            <div id="hour-20" class="timeBlock-evening"><div class="time">8PM</div><textarea class="col-md-4 occurrence"></textarea><button class="btn ">save</button></div>
+        </div>
+    </div>
+
+​
+<!-- <script src="jquery-3.4.1.min.js"></script> -->
+<script src="logic.js"></script>
+<script src="moment.min.js"></script>
+</body>
+​
+</html>

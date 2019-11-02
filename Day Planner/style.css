@@ -1,0 +1,76 @@
+
+        
+.btn {
+   background: bisque;
+   color: teal;
+   width: 50px;
+   height: 25px;
+} 
+/* .box {width: 890px;
+   height: 450px;
+   background: tomato;
+    display: inline-block;
+    color: teal;
+    margin: ;
+} */
+/* .container {
+   width: 100px;
+   height: auto;
+    
+    
+} */
+
+.occurrence {
+    height: 25px;
+    width: 700px;
+    margin: 0px 45px -5px 45px;
+}
+​ 
+.btn {
+    height: 25px;
+    width: 163px;
+    margin: -25px -50px;
+}
+​
+.time {
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 16px;
+}
+​
+.timeBlock-early {
+   margin: 10px;
+   width: 160px;
+   height: 100px;
+   padding: 20px;
+   background-color: green;
+}
+​
+.timeBlock-lunch {
+    margin: 10px;
+    width: 160px;
+    height: 100px;
+    padding: 20px;
+    background-color: lightblue;
+ }
+​
+ .timeBlock-afternoon {
+    margin: 10px;
+    width: 160px;
+    height: 100px;
+    padding: 20px;
+    background-color: lightcoral;
+ }
+ /* .timeBlock-evening {
+    margin: 10px;
+    width: 160px;
+    height: 100px;
+    padding: 20px;
+    background-color: grey;
+ } */
+.timeBlock {
+   align-self: auto;
+   
+
+   margin: 5px 25px 5px -5px;
+}
