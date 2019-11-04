@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  
   //listner for save button clicks
   $(".btn").on("click", function() {
     var value = $(this)
@@ -31,9 +32,7 @@ $(document).ready(function() {
     });
   }
 
-  hourUpdater();
-
-  var interval = setInterval(hourUpdater, 15000);
+  
 
   $("#hour-9 .occurrence").val(localStorage.getItem("hour-9"));
   $("#hour-10 .occurrence").val(localStorage.getItem("hour-10"));
@@ -51,7 +50,7 @@ $(document).ready(function() {
     for (var i = 9; i <= 20; i++) {
       var g = "#hour-" + i;
       if (i < hour) {
-        $(g).attr("style", "background: gray");
+        $(g).attr("style", "background: gray", "width: 400 px");
       } else if (i == hour) {
         $(g).attr("style", "background: red");
       } else {
